@@ -8,4 +8,7 @@ print("The sum of", num1, "and", num2, "is", sum
 def add(num1, num2):
    return num1 + num2
    sum = add(5, 10)
-   print("The sum of 5 and 10 is", sum))
+   print("The sum of 5 and 10 is",
+   sum# Example: Using a lambda function to add two numbers
+add_two_numbers = lambda num1, num2: num1 + num2
+print("The sum is", add_two_numbers(3, 5))))
